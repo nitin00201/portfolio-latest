@@ -21,7 +21,7 @@ export default function Resume() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Nitin
+              Nitin Kabi
             </motion.h1>
             <motion.p 
               className="text-xl font-light"
@@ -37,22 +37,18 @@ export default function Resume() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <span>nitin@example.com</span>
-              <span>+1 (555) 123-4567</span>
-              <span>San Francisco, CA</span>
+              <span>nitinkabi123@gmail.com</span>
+              <span>+91 7735647656</span>
+              <span>Bhubaneswar, Odisha</span>
+              <span><Link href="https://github.com/nitin00201/" target="_blank" className="text-gray-700 dark:text-gray-300">GitHub</Link></span>
+              <span><Link href="https://linkedin.com/in/nitin-kabi-980532247/" target="_blank" className="text-gray-700 dark:text-gray-300">Linkedin</Link></span>
+
             </motion.div>
           </div>
 
           {/* Letter body */}
           <div className="p-8">
-            <motion.div 
-              className="mb-8 text-right"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-            >
-              <p className="text-gray-700 dark:text-gray-300">September 27, 2025</p>
-            </motion.div>
+     
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -63,7 +59,7 @@ export default function Resume() {
                 Professional Summary
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                Highly skilled Full Stack Developer with over 5 years of experience in designing and implementing 
+                Highly skilled Full Stack Developer in designing and implementing 
                 scalable web applications. Proficient in both frontend and backend technologies, with a strong 
                 focus on creating exceptional user experiences and robust server-side solutions. Passionate about 
                 staying current with emerging technologies and applying best practices to deliver high-quality software.
@@ -99,11 +95,11 @@ export default function Resume() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-amber-600 rounded-full mr-3"></span>
-                      <span className="text-gray-700 dark:text-gray-300">Python, Django</span>
+                      <span className="text-gray-700 dark:text-gray-300">Java, Spring boot</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-amber-600 rounded-full mr-3"></span>
-                      <span className="text-gray-700 dark:text-gray-300">MongoDB, PostgreSQL</span>
+                      <span className="text-gray-700 dark:text-gray-300">MongoDB, AWS</span>
                     </li>
                   </ul>
                 </div>
@@ -113,44 +109,52 @@ export default function Resume() {
                 Professional Experience
               </h2>
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Senior Full Stack Developer</h3>
-                <p className="text-amber-700 dark:text-amber-400 font-medium">Tech Innovations Inc. | 2022 - Present</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Full Stack Developer Intern</h3>
+                <p className="text-amber-700 dark:text-amber-400 font-medium">Inxtinct Security | july-2025 - Present</p>
                 <ul className="mt-3 space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span className="text-gray-700 dark:text-gray-300">
-                      Led development of a customer portal serving 100,000+ users, improving response times by 40%
-                    </span>
+Developed a user-friendly and responsive UI for the application, significantly improving usability
+, performance, and overall user experience.                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span className="text-gray-700 dark:text-gray-300">
-                      Architected and implemented a microservices-based backend system using Node.js and Docker
-                    </span>
+ Integrated a robust virus scanning feature for inbound email attachments, improving security and 
+minimizing threat exposure.                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span className="text-gray-700 dark:text-gray-300">
-                      Mentored junior developers and established coding standards that improved code quality by 30%
-                    </span>
+ Implemented advanced sensitive data loss prevention using Google DLP, ensuring compliance with data 
+privacy standards.                    </span>
                   </li>
                 </ul>
               </div>
 
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Full Stack Developer</h3>
-                <p className="text-amber-700 dark:text-amber-400 font-medium">Digital Solutions LLC | 2020 - 2022</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Apparentice</h3>
+                <p className="text-amber-700 dark:text-amber-400 font-medium">Hyscaler</p>
                 <ul className="mt-3 space-y-2">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span className="text-gray-700 dark:text-gray-300">
-                      Developed and maintained 15+ client websites using React and WordPress, increasing client retention by 25%
+                      Implemented third-party shipping API integrations to enhance backend functionality and optimize order 
+fulfillment workflows. </span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="text-gray-700 dark:text-gray-300">
+                      Modified and optimized frontend components using Next.js, improving user experience and interface 
+responsiveness.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span className="text-gray-700 dark:text-gray-300">
-                      Integrated payment systems using Stripe API, reducing transaction processing time by 30%
+Authored comprehensive technical documentation detailing backend upgrades, facilitating smoother future 
+development and onboarding.
                     </span>
                   </li>
                 </ul>
@@ -159,12 +163,10 @@ export default function Resume() {
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 border-b-2 border-amber-500 pb-2 mt-10">
                 Education
               </h2>
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">B.S. Computer Science</h3>
-                <p className="text-amber-700 dark:text-amber-400 font-medium">University of Technology | 2015 - 2019</p>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Graduated with honors. Specialized in software engineering and web development.
-                </p>
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">MCA</h3>
+                <p className="text-amber-700 dark:text-amber-400 font-medium">Veer Surendra Sai University of Technology | 2022 - 2024</p>
+                
               </div>
 
               <div className="mt-12 pt-6 border-t-2 border-amber-200 dark:border-amber-900">
